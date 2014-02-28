@@ -2,8 +2,8 @@
  *     /\_..._/\     _____ _____ _____ _____ __ __
  *     |/ \_/ \|    |  |  |  |  |   __|  |  |  |  |
  *     | o.-.o |    |     |  |  |__   |    -|_   _|
- *     \ ( O ) /    |__|__|_____|_____|__|__| |_|  
- *      '--U--'     
+ *     \ ( O ) /    |__|__|_____|_____|__|__| |_|
+ *      '--U--'
  *
  * Copyright (c) 2014 Luiz F. A. de Prá
  *
@@ -11,4 +11,15 @@
  *
  * License: MIT (see LICENSE.md file)
  */
- 
+
+#ifndef _HUSKY_
+#define _HUSKY_
+
+namespace husky
+{
+    unsigned int const MAJOR_VERSION = 0;
+    unsigned int const MINOR_VERSION = 0;
+    unsigned int const PATCH_VERSION = 1;
+}
+
+#endif /* _HUSKY_ */
